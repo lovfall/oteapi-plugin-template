@@ -5,7 +5,7 @@ import re
 from setuptools import find_packages, setup
 
 TOP_DIR = Path(__file__).resolve().parent
-PACKAGE_NAME = "{{ cookiecutter.project_slug }}"
+PACKAGE_NAME = "{{ cookiecutter.package_name }}" 
 
 with open(
     TOP_DIR / PACKAGE_NAME.replace("-", "_") / "__init__.py", "r", encoding="utf8"
