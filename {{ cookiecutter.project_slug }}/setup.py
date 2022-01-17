@@ -1,4 +1,4 @@
-"""Setup for {{ cookicutter.project_name }}."""
+"""Setup for {{ cookiecutter.project_name }}."""
 from pathlib import Path
 import re
 
