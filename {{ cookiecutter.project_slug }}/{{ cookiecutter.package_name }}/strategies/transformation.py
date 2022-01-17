@@ -50,4 +50,4 @@ class DummyTransformationStrategy:
         """get transformation"""
 
         # TODO: update and return global state
-        return dict()
+        return {}

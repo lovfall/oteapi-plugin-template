@@ -11,7 +11,6 @@ from oteapi.interfaces.idownloadstrategy import create_download_strategy
 
 
 @dataclass
-# TODO: Replace "demo-access-service" below with appropriate accessService
 @StrategyFactory.register(("accessService", "demo-access-service"))
 class DemoResourceStrategy:
     """Resource Interface"""
