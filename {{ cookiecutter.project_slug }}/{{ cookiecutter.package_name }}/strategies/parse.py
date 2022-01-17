@@ -11,7 +11,7 @@ from oteapi.interfaces.idownloadstrategy import create_download_strategy
 
 @dataclass
 @StrategyFactory.register(("mediaType", "text/json"))
-class JSONDataParseStrategy:
+class DemoJSONDataParseStrategy:
 
     resource_config: ResourceConfig
 
