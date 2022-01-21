@@ -14,7 +14,7 @@ from oteapi.plugins.factories import StrategyFactory
 
 
 @dataclass
-@StrategyFactory.register(("transformation_type", "script/dummy"))
+@StrategyFactory.register(("transformation_type", "script/DEMO"))
 class DummyTransformationStrategy:
     """Testing the API"""
 

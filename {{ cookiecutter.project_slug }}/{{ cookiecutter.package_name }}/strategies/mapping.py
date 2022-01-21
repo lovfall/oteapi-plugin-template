@@ -10,7 +10,7 @@ from oteapi.plugins.factories import StrategyFactory
 
 
 @dataclass
-@StrategyFactory.register(("mappingType", "mapping/demo"))
+@StrategyFactory.register(("mappingType", "mapping/DEMO"))
 class DemoMappingStrategy:
     """Mapping Interface"""
 

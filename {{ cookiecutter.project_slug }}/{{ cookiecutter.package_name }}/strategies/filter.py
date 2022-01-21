@@ -16,7 +16,7 @@ class DemoDataModel(BaseModel):
 
 
 @dataclass
-@StrategyFactory.register(("filterType", "filter/demo"))
+@StrategyFactory.register(("filterType", "filter/DEMO"))
 class DemoFilter:
 
     filter_config: FilterConfig

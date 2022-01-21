@@ -11,7 +11,7 @@ from oteapi.plugins.factories import create_download_strategy
 
 
 @dataclass
-@StrategyFactory.register(("accessService", "demo-access-service"))
+@StrategyFactory.register(("accessService", "DEMO-access-service"))
 class DemoResourceStrategy:
     """Resource Interface"""
 

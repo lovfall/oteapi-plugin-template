@@ -10,7 +10,7 @@ from oteapi.plugins.factories import create_download_strategy
 
 
 @dataclass
-@StrategyFactory.register(("mediaType", "text/json"))
+@StrategyFactory.register(("mediaType", "text/jsonDEMO"))
 class DemoJSONDataParseStrategy:
 
     resource_config: ResourceConfig
