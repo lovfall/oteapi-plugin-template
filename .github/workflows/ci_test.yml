@@ -31,5 +31,7 @@ jobs:
         pip install -r oteapi-ci/requirements.txt
         pip install -e oteapi-ci
     - name: Run tests
-      run: pytest oteapi-ci
+      run: |
+        pip install pytest
+        pytest oteapi-ci
 
