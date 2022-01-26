@@ -24,9 +24,7 @@ class FileConfig(BaseModel):
 
 
 @dataclass
-@StrategyFactory.register(
-    ("scheme", "file"),
-)
+@StrategyFactory.register(("scheme", "fileDEMO"))
 class FileStrategy:
     """Strategy for retrieving data via local file."""
 
